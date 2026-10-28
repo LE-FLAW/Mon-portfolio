@@ -11,9 +11,10 @@
   
   --color-primary: #2563eb;
   --color-primary-hover: #1d4ed8;
+  --color-primary-dark: #1d4ed8;
   --color-primary-light: #dbeafe;
   
-  --color-accent-green: #16a34a;
+  --color-accent-green: #166534;
   --color-accent-green-light: #dcfce7;
   
   --color-warning-bg: #fef3c7;
@@ -85,7 +86,7 @@ body {
   padding: 0.35rem 0.85rem;
   border-radius: 9999px;
   margin-bottom: 1rem;
-  border: 1px solid rgba(22, 163, 74, 0.2);
+  border: 1px solid rgba(22, 101, 52, 0.25);
 }
 
 .hero h1 {
@@ -192,7 +193,7 @@ main {
 .project-tag {
   display: inline-block;
   background-color: var(--color-primary-light);
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
   font-size: 0.8rem;
   font-weight: 600;
   padding: 0.25rem 0.65rem;
@@ -277,7 +278,7 @@ main {
   border: 1px solid var(--color-border);
 }
 
-.detail-item h4 {
+.detail-item h3 {
   font-size: 0.95rem;
   font-weight: 700;
   color: var(--color-text-main);
@@ -307,22 +308,22 @@ main {
 
 /* --- Pied de page (Footer) --- */
 .footer {
-  background-color: #1e293b;
-  border-top: none;
+  background-color: var(--color-warning-bg);
+  border-top: 1px solid var(--color-warning-border);
   text-align: center;
   padding: 2rem 0;
   font-size: 0.9rem;
-  color: #cbd5e1;
+  color: var(--color-warning-text);
 }
 
 .footer strong {
-  color: #f1f5f9;
+  color: #451a03;
 }
 
 .footer-sub {
   margin-top: 0.35rem;
   font-size: 0.8rem;
-  color: #94a3b8;
+  color: #92400e;
 }
 
 /* --- Responsive & Mobile --- */
