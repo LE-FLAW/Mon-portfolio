@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camille Martin — Portfolio Préparation de commandes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Bandeau d'information obligatoire -->
+  <aside class="disclaimer-banner" role="note" aria-label="Avertissement pédagogique">
+    ⚠️ <strong>Portfolio fictif créé en formation</strong>
+  </aside>
+
+  <!-- En-tête principal -->
+  <header class="hero">
+    <div class="container hero-content">
+      <div class="badge">Recherche active de poste</div>
+      <h1>Camille Martin</h1>
+      <p class="subtitle">Préparatrice de commandes &amp; Agent logistique</p>
+      <p class="hero-intro">
+        6 mois d’expérience opérationnelle en entrepôt et démarche active d’apprentissage des outils numériques.
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Section Présentation -->
+    <section class="card section-intro" id="a-propos">
+      <h2>À propos</h2>
+      <p>
+        Forte d’une première expérience de <strong>six mois sur le terrain en logistique</strong>,
+        j'assure avec rigueur la réception, le comptage précis des stocks et la préparation soignée des commandes.
+        Appliquée et attentive aux cadences comme aux règles de sécurité, je développe également mes compétences
+        dans les outils numériques et d'assistance par l'intelligence artificielle pour structurer et fiabiliser les suivis en entrepôt.
+      </p>
+    </section>
+
+    <!-- Section Expérience terrain -->
+    <section class="section-experience" id="experience">
+      <h2>Expérience terrain (6 mois en logistique)</h2>
+      <div class="grid">
+        <article class="card skill-card">
+          <div class="card-icon">📦</div>
+          <h3>Réception de colis</h3>
+          <p>Accueil et déchargement des livraisons, vérification visuelle de la conformité des marchandises et signalement des écarts.</p>
+        </article>
+
+        <article class="card skill-card">
+          <div class="card-icon">📋</div>
+          <h3>Comptage des stocks</h3>
+          <p>Contrôle méthodique des quantités, pointage des références et participation active aux inventaires élémentaires.</p>
+        </article>
+
+        <article class="card skill-card">
+          <div class="card-icon">🛒</div>
+          <h3>Préparation des commandes</h3>
+          <p>Prélèvement rigoureux des articles selon les bons de commande, conditionnement, emballage et étiquetage soignés.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section Réalisation / Formation avec Interaction -->
+    <section class="card section-project" id="realisation">
+      <div class="project-header">
+        <span class="project-tag">Projet réalisé en formation</span>
+        <h2>Tableau de suivi logistique</h2>
+        <p class="project-summary">
+          Conception d’un outil de suivi opérationnel pour piloter les flux quotidiens de colis et anticiper les priorités, réalisé avec l’aide d’outils d’IA.
+        </p>
+      </div>
+
+      <!-- Bouton interactif pour déplier/replier les détails -->
+      <div class="project-action">
+        <button id="toggleDetailsBtn" class="btn btn-primary" aria-expanded="false" aria-controls="projectDetails">
+          <span class="btn-text">Afficher les détails de la réalisation</span>
+          <span class="btn-icon" aria-hidden="true">▾</span>
+        </button>
+      </div>
+
+      <!-- Contenu interactif masqué par défaut -->
+      <div id="projectDetails" class="project-details" hidden>
+        <div class="details-grid">
+          <div class="detail-item">
+            <h4>🎯 Objectif opérationnel</h4>
+            <p>
+              Clarifier la gestion quotidienne des commandes : distinguer les commandes urgentes en retard, celles à expédier le jour même et les flux à venir.
+            </p>
+          </div>
+          <div class="detail-item">
+            <h4>🤖 Apport des outils d'IA</h4>
+            <p>
+              Assistance à la structuration logique des colonnes, optimisation de la hiérarchisation des priorités et mise en forme lisible des totaux.
+            </p>
+          </div>
+          <div class="detail-item">
+            <h4>📈 Compétence clé démontrée</h4>
+            <p>
+              Capacité à utiliser des technologies modernes pour gagner en autonomie, en clarté et en réactivité au sein d'une équipe logistique.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Cadre & Contact -->
+    <section class="card section-contact" id="contact">
+      <h2>Cadre du projet &amp; Contact</h2>
+      <p>
+        Ce portfolio a été conçu dans le cadre d’un atelier pédagogique pour valoriser des compétences réelles et des acquis en formation.
+        Conformément à la démarche d’apprentissage, aucun diplôme, permis ou coordonnée personnelle n’est affiché.
+      </p>
+      <div class="contact-notice">
+        ℹ️ Pour toute question ou mise en relation, veuillez vous adresser directement aux animateurs de la formation ou à l'organisme accompagnateur.
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Pied de page -->
+  <footer class="footer">
+    <div class="container">
+      <p><strong>Portfolio fictif créé en formation</strong> — Camille Martin</p>
+      <p class="footer-sub">Site statique développé en HTML, CSS et JavaScript natifs.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
